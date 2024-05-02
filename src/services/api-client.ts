@@ -1,5 +1,4 @@
 import axios, { AxiosRequestConfig } from 'axios'
-import { config } from 'process'
 
 const axiosInstance = axios.create({
   baseURL: 'https://66332c8cf7d50bbd9b4869db.mockapi.io/api/v1',
